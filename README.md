@@ -12,9 +12,9 @@ IPSOCNV is a copy number variation detection method using neural networks combin
 # Usage of IPSOCNV
 ## step1: Data preprocessing
 After sorting and alignment of sample files with samtools and BWA, simulation.py performs further preprocessing operations, including feature extraction of other parameters, to obtain simulated data used for experiments. The same processing is performed on real data as well.
-## step1: Training process
+## step2: Training process
 Importing training data and execute train_ipsocnv.m
-## step2: Testing process
+## step3: Testing process
 You can select the appropriate simulation dataset or the real dataset, then execute bpcnv_test.m and bpcnv_test_real.m respectively
-## step3: Analysis of results
+## step4: Analysis of results
 The results are output directly as precision and sensitivity, and the test code can also be modified to obtain the location and type of copy number variants detected
